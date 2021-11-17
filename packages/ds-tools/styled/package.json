@@ -1,0 +1,20 @@
+{
+  "name": "@ds-tools/styled",
+  "version": "0.0.1",
+  "description": "",
+  "source": "index.js",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "microbundle watch",
+    "build": "microbundle --format cjs"
+  },
+  "keywords": [],
+  "author": "siddharthkp",
+  "license": "MIT",
+  "dependencies": {
+    "@emotion/core": "^10.0.15",
+    "@emotion/styled": "^10.0.15",
+    "@styled-system/css": "^5.0.22"
+  },
+  "devDependencies": {}
+}

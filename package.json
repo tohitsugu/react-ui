@@ -1,0 +1,15 @@
+{
+  "name": "react-ui-workspace",
+  "version": "0.0.0",
+  "private": true,
+  "workspaces": [
+    "packages/*",
+    "packages/ds-tools/*",
+    "packages/ecosystem/*"
+  ],
+  "scripts": {
+    "test": "yarn test:lib && yarn test:visual-tests",
+    "test:lib": "cd packages/react-ui && yarn test",
+    "test:visual-tests": "cd packages/visual-tests && yarn test"
+  }
+}

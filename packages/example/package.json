@@ -1,0 +1,44 @@
+{
+  "name": "example",
+  "version": "0.0.0",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "now-start": "serve -s build",
+    "css": "theme.css"
+  },
+  "dependencies": {
+    "@ds-tools/theme.css": "0.0.1",
+    "@styled-system/theme-get": "^5.1.1",
+    "date-fns": "^2.10.0",
+    "dedent": "^0.7.0",
+    "pretty-ms": "^6.0.1",
+    "react": "^16.8.9",
+    "react-dom": "^16.8.9",
+    "react-draggable": "^4.2.0",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "^3.4.0",
+    "react-spring": "^8.0.27",
+    "react-ui": "1.0.0-beta.14",
+    "use-interval": "^1.2.1"
+  },
+  "author": "siddharthkp",
+  "license": "MIT",
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
